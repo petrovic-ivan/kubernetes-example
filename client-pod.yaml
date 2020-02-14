@@ -6,7 +6,7 @@ metadata:
     component: web
 spec:
   containers:
-  - name: client
-    image: kat1330/docker-solution-worker
-    ports:
-      - containerPort: 3000
+    - name: client
+      image: stephengrider/multi-client
+      ports:
+        - containerPort: 3000
